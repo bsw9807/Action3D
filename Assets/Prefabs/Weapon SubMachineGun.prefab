@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 7419662060513371298}
   m_Layer: 0
   m_Name: Weapon SubMachineGun
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 4
-  value: 1
+  value: 2
 --- !u!1 &7419662059994708464
 GameObject:
   m_ObjectHideFlags: 0
