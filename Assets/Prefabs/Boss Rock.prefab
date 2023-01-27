@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5165370043844433306
+--- !u!1 &628653220316058445
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5165370043844433309}
-  - component: {fileID: 5165370043844433311}
-  - component: {fileID: 5165370043844433308}
-  m_Layer: 11
+  - component: {fileID: 8047253969348004113}
+  - component: {fileID: 496419077614117505}
+  - component: {fileID: 6816788193572855790}
+  m_Layer: 15
   m_Name: Mesh Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5165370043844433309
+--- !u!4 &8047253969348004113
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165370043844433306}
+  m_GameObject: {fileID: 628653220316058445}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5165370044011330103}
+  m_Father: {fileID: 4327484655497325218}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5165370043844433311
+--- !u!33 &496419077614117505
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165370043844433306}
-  m_Mesh: {fileID: -3478402370096955390, guid: a29a27ab3d71520419675144b66e697d, type: 3}
---- !u!23 &5165370043844433308
+  m_GameObject: {fileID: 628653220316058445}
+  m_Mesh: {fileID: 4013275331872712965, guid: 0d22a1c55ff42614eb30ef07a31f71ec, type: 3}
+--- !u!23 &6816788193572855790
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165370043844433306}
+  m_GameObject: {fileID: 628653220316058445}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b09f65079094eb44b167491c6c28a3f, type: 2}
+  - {fileID: 2100000, guid: d4c08a0d5d7031e4faacea739fe5831e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,7 +83,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5165370044011330099
+--- !u!1 &3982731218716160024
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,74 +91,88 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5165370044011330103}
-  - component: {fileID: 5165370044011330100}
-  - component: {fileID: 5165370044011330101}
-  - component: {fileID: 5165370044011330098}
-  m_Layer: 11
-  m_Name: Bullet Case
-  m_TagString: Untagged
+  - component: {fileID: 4327484655497325218}
+  - component: {fileID: 4717375971239938304}
+  - component: {fileID: 4717375971239938305}
+  - component: {fileID: 4717375971239938309}
+  - component: {fileID: 4717375971239938307}
+  m_Layer: 15
+  m_Name: Boss Rock
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5165370044011330103
+--- !u!4 &4327484655497325218
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165370044011330099}
+  m_GameObject: {fileID: 3982731218716160024}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5165370043844433309}
+  - {fileID: 8047253969348004113}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &5165370044011330100
+--- !u!54 &4717375971239938304
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165370044011330099}
+  m_GameObject: {fileID: 3982731218716160024}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
---- !u!65 &5165370044011330101
-BoxCollider:
+--- !u!135 &4717375971239938305
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165370044011330099}
+  m_GameObject: {fileID: 3982731218716160024}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 4
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5165370044011330098
+--- !u!135 &4717375971239938309
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982731218716160024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4717375971239938307
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5165370044011330099}
+  m_GameObject: {fileID: 3982731218716160024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7bb8c0e8910084997f386e327cc80f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1182cb57f00e582499bb872f0d18e199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 30
   isMelee: 0
-  isRock: 0
+  isRock: 1
